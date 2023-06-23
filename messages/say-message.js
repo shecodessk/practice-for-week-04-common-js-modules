@@ -1,3 +1,5 @@
+const { helloMessage } = require('../messages/hello-message')
+
 
 
 function sayMessage(message) {
@@ -5,3 +7,6 @@ function sayMessage(message) {
 }
 
 sayMessage(helloMessage);
+
+
+module.exports = { sayMessage }
